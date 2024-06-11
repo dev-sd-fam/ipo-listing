@@ -1,7 +1,7 @@
+import IpoListing from "../../components/ipoListing/IpoListing";
+
 const Home = () => {
-  return (
-    <div>Home</div>
-  );
+  return <IpoListing />;
 };
 
 export default Home;

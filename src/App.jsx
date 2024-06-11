@@ -3,14 +3,16 @@ import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
 import Home from "./pages/home/Home";
 
+import "./styles/global.scss";
+import NotFound from "./components/error/NotFound";
+import DetailPage from "./pages/detailPage/DetailPage";
+
 function App() {
   const Layout = () => {
     return (
       <main className="main">
         <Navbar />
-        <div className="container">
-          <Outlet />
-        </div>
+        <Outlet />
         <Footer />
       </main>
     );
@@ -23,9 +25,19 @@ function App() {
       children: [
         {
           path: "/",
-          element: <Home/>
+          element: <Home />,
+          errorElement: <Error />,
         },
-      ]
+        {
+          path: "/ipo/:slug",
+          element: <DetailPage />,
+          errorElement: <Error />,
+        },
+        {
+          path: "*",
+          element: <NotFound />,
+        },
+      ],
     },
   ]);
 

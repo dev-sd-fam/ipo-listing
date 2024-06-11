@@ -1,0 +1,76 @@
+@import "../../styles/variables.scss";
+
+.ipo-listing {
+  margin: 40px 0;
+
+  .items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    padding: 15px;
+  }
+
+  .listing {
+    border: 1px solid $dark-grey;
+    border-radius: 15px;
+
+    li {
+      transition: .3s;
+
+      &:not(.table-titles):hover {
+        background-color: $hover;
+      }
+      
+      &:not(:last-child) {
+        border-bottom: 1px solid $grey;
+      }
+    }
+    
+  }
+
+  .table-titles {
+    background-color: $grey;
+    border-radius: 15px 15px 0 0;
+    color: $text;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .logo img {
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid $grey;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .company {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .date {
+      font-size: 14px;
+      line-height: 20px;
+      color: $dark-grey;
+      font-weight: 400;
+    }
+  }
+
+  .text {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+  }
+
+  .investment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
