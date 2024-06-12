@@ -1,4 +1,5 @@
 @import "../../styles/variables.scss";
+@import "../../styles/responsive.scss";
 
 .detail-header {
   margin-bottom: 40px;
@@ -7,6 +8,11 @@
     box-shadow: $shadow;
     border-radius: 10px;
     padding: 15px;
+
+    @include md {
+      padding: 0;
+      box-shadow: none;
+    }
   }
 
   .left-side {
@@ -19,7 +25,11 @@
     border-radius: 10px;
     width: 40px;
     height: 40px;
-    transition: .3s;
+    transition: 0.3s;
+
+    @include lg {
+      display: none;
+    }
 
     &:hover {
       background-color: $hover;
@@ -46,35 +56,43 @@
 
   .content {
     gap: 15px;
+
+    @include md {
+      gap: 10px;
+    }
   }
 
-  .right-side{
+  .right-side {
     gap: 15px;
 
-    .download{
+    @include lg {
+      display: none;
+    }
+
+    .download {
       width: 35px;
       height: 35px;
       display: inline-block;
-      transition: .05s;
+      transition: 0.05s;
 
-      &:hover{
+      &:hover {
         transform: scale(0.95);
       }
 
-      svg{
+      svg {
         width: 100%;
         height: 100%;
       }
     }
 
-    .apply-now{
+    .apply-now {
       background: $black;
       color: $white;
       padding: 10px 20px;
       border-radius: 10px;
       font-size: 14px;
       line-height: 20px;
-      transition: .3s;
+      transition: 0.3s;
 
       &:hover {
         background-color: $dark-hover;
