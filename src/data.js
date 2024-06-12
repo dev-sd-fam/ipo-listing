@@ -12,49 +12,80 @@ export const ipoData = [
     slug: "oyo-ipo",
     img: oyo,
     companyName: "OYO",
+    organisation: "OYO Private Limited",
     issueDate: "To be announced",
     issueSize: "₹360 Crores",
     priceRange: "₹129-136",
     minInvest: "₹14,190",
     qty: "100 Shares/5 Lots",
-    ipoDetails: {
-      issueSize: "₹3,600 - 3,700 Cr.",
-      priceRange: "₹100 - 200",
-      minAmount: "₹50,000",
-      lotSize: "150 shares/lots",
-      issueDate: "To be announced",
-      listedOn: "15 Dec 22",
-      listedPrice: "₹150",
-      listingGain: "₹10(10.0%) ",
-    },
+    ipoDetails: [
+      {
+        title: "Issue Size",
+        value: "₹13,600 - 13,900 Cr.",
+      },
+      {
+        title: "Price range",
+        value: "₹100 - 200",
+      },
+      {
+        title: "Minimum amount",
+        value: "₹50,000",
+      },
+      {
+        title: "Lot size",
+        value: "150 shares/lots",
+      },
+      {
+        title: "Issue date",
+        value: "3 June - 5 June 24",
+      },
+      {
+        title: "Listed on",
+        value: "15 Dec 22",
+      },
+      {
+        title: "Listed price",
+        value: "₹150",
+      },
+      {
+        title: "Listed gains",
+        value: "₹10(10.0%) ",
+      },
+    ],
     ipoTimeline: [
       {
         status: true,
+        title: "Bidding starts",
         date: "12 Dec 2023",
       },
       {
         status: true,
+        title: "Bidding ends",
         date: "15 Dec 2023",
       },
       {
         status: true,
+        title: "Allotment Finalization",
         date: "18 Dec 2023",
       },
       {
         status: true,
+        title: "Refund initialization",
         date: "18 Dec 2023",
       },
       {
         status: true,
+        title: "Demat Transfer",
         date: "18 Dec 2023",
       },
       {
-        status: false,
+        status: true,
+        title: "Listing Date",
         date: "21 Dec 2023",
       },
     ],
     aboutCompany:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda magni quas quasi, rem accusantium cum! Aperiam, quas accusantium nesciunt, quasi ex nemo architecto cumque quis nobis sit explicabo perspiciatis laudantium consectetur nulla quidem rem! Aliquam nobis dolor earum! Culpa veniam id, minima praesentium optio impedit fugit quo autem facere unde enim, reprehenderit tenetur vero labore doloribus odit placeat quidem error. Libero rerum architecto inventore! Dolores recusandae ad maiores aperiam. Iste nam ex pariatur excepturi doloremque at, iusto commodi laborum! Illum voluptate autem, inventore tempore consequuntur, quidem possimus atque omnis pariatur incidunt quos aperiam delectus vero, aliquam sed iure ratione hic!",
+      "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut consectetur a veritatis mollitia, excepturi voluptates, rem vel expedita sapiente facilis esse neque dolore provident porro. Saepe explicabo perspiciatis maxime adipisci!</p><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis nemo in omnis non est odit voluptatem tenetur quod doloribus dolores rem, asperiores autem quibusdam nihil reiciendis, expedita accusantium sed laborum? Dolorum ipsum aliquam est maiores veritatis quod officia consequatur inventore?</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolorum ipsa quae voluptate saepe quisquam maiores rem corrupti nobis quasi.</p>",
   },
 
   {
@@ -62,49 +93,80 @@ export const ipoData = [
     slug: "boat-ipo",
     img: boat,
     companyName: "boAt",
+    organisation: "BoAt Private Limited",
     issueDate: "3rd - 5th June 2024",
     issueSize: "₹13000 Crores",
     priceRange: "₹500-560",
     minInvest: "₹20,000",
     qty: "150 Shares/5 Lots",
-    ipoDetails: {
-      issueSize: "₹13,600 - 13,900 Cr.",
-      priceRange: "₹100 - 200",
-      minAmount: "₹50,000",
-      lotSize: "150 shares/lots",
-      issueDate: "3 June - 5 June 24",
-      listedOn: "15 Dec 22",
-      listedPrice: "₹150",
-      listingGain: "₹10(10.0%) ",
-    },
+    ipoDetails: [
+      {
+        title: "Issue Size",
+        value: "₹13,600 - 13,900 Cr.",
+      },
+      {
+        title: "Price range",
+        value: "₹100 - 200",
+      },
+      {
+        title: "Minimum amount",
+        value: "₹50,000",
+      },
+      {
+        title: "Lot size",
+        value: "150 shares/lots",
+      },
+      {
+        title: "Issue date",
+        value: "3 June - 5 June 24",
+      },
+      {
+        title: "Listed on",
+        value: "15 Dec 22",
+      },
+      {
+        title: "Listed price",
+        value: "₹150",
+      },
+      {
+        title: "Listed gains",
+        value: "₹10(10.0%) ",
+      },
+    ],
     ipoTimeline: [
       {
         status: true,
+        title: "Bidding starts",
         date: "12 Dec 2023",
       },
       {
         status: true,
+        title: "Bidding ends",
         date: "15 Dec 2023",
       },
       {
         status: true,
+        title: "Allotment Finalization",
         date: "18 Dec 2023",
       },
       {
         status: true,
+        title: "Refund initialization",
         date: "18 Dec 2023",
       },
       {
         status: true,
+        title: "Demat Transfer",
         date: "18 Dec 2023",
       },
       {
         status: false,
+        title: "Listing Date",
         date: "21 Dec 2023",
       },
     ],
     aboutCompany:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda magni quas quasi, rem accusantium cum! Aperiam, quas accusantium nesciunt, quasi ex nemo architecto cumque quis nobis sit explicabo perspiciatis laudantium consectetur nulla quidem rem! Aliquam nobis dolor earum! Culpa veniam id, minima praesentium optio impedit fugit quo autem facere unde enim, reprehenderit tenetur vero labore doloribus odit placeat quidem error. Libero rerum architecto inventore! Dolores recusandae ad maiores aperiam. Iste nam ex pariatur excepturi doloremque at, iusto commodi laborum! Illum voluptate autem, inventore tempore consequuntur, quidem possimus atque omnis pariatur incidunt quos aperiam delectus vero, aliquam sed iure ratione hic!",
+      "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut consectetur a veritatis mollitia, excepturi voluptates, rem vel expedita sapiente facilis esse neque dolore provident porro. Saepe explicabo perspiciatis maxime adipisci!</p><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis nemo in omnis non est odit voluptatem tenetur quod doloribus dolores rem, asperiores autem quibusdam nihil reiciendis, expedita accusantium sed laborum? Dolorum ipsum aliquam est maiores veritatis quod officia consequatur inventore?</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolorum ipsa quae voluptate saepe quisquam maiores rem corrupti nobis quasi.</p>",
   },
 
   {
@@ -112,49 +174,80 @@ export const ipoData = [
     slug: "gp-eco-ipo",
     img: gpEco,
     companyName: "GP Eco Solutions",
+    organisation: "Gp Eco Sol. Private Limited",
     issueDate: "14th - 17th Oct 2024",
     issueSize: "₹300 Crores",
     priceRange: "₹50-60",
     minInvest: "₹15,000",
     qty: "90 Shares/5 Lots",
-    ipoDetails: {
-      issueSize: "₹300 - 370 Cr.",
-      priceRange: "₹100 - 200",
-      minAmount: "₹50,000",
-      lotSize: "150 shares/lots",
-      issueDate: "4 Oct - 7 Oct 22",
-      listedOn: "15 Dec 22",
-      listedPrice: "₹150",
-      listingGain: "₹10(10.0%) ",
-    },
+    ipoDetails: [
+      {
+        title: "Issue Size",
+        value: "₹13,600 - 13,900 Cr.",
+      },
+      {
+        title: "Price range",
+        value: "₹100 - 200",
+      },
+      {
+        title: "Minimum amount",
+        value: "₹50,000",
+      },
+      {
+        title: "Lot size",
+        value: "150 shares/lots",
+      },
+      {
+        title: "Issue date",
+        value: "3 June - 5 June 24",
+      },
+      {
+        title: "Listed on",
+        value: "15 Dec 22",
+      },
+      {
+        title: "Listed price",
+        value: "₹150",
+      },
+      {
+        title: "Listed gains",
+        value: "₹10(10.0%) ",
+      },
+    ],
     ipoTimeline: [
       {
         status: true,
+        title: "Bidding starts",
         date: "12 Dec 2023",
       },
       {
         status: true,
+        title: "Bidding ends",
         date: "15 Dec 2023",
       },
       {
         status: true,
+        title: "Allotment Finalization",
         date: "18 Dec 2023",
       },
       {
         status: true,
+        title: "Refund initialization",
         date: "18 Dec 2023",
       },
       {
         status: true,
+        title: "Demat Transfer",
         date: "18 Dec 2023",
       },
       {
         status: false,
+        title: "Listing Date",
         date: "21 Dec 2023",
       },
     ],
     aboutCompany:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda magni quas quasi, rem accusantium cum! Aperiam, quas accusantium nesciunt, quasi ex nemo architecto cumque quis nobis sit explicabo perspiciatis laudantium consectetur nulla quidem rem! Aliquam nobis dolor earum! Culpa veniam id, minima praesentium optio impedit fugit quo autem facere unde enim, reprehenderit tenetur vero labore doloribus odit placeat quidem error. Libero rerum architecto inventore! Dolores recusandae ad maiores aperiam. Iste nam ex pariatur excepturi doloremque at, iusto commodi laborum! Illum voluptate autem, inventore tempore consequuntur, quidem possimus atque omnis pariatur incidunt quos aperiam delectus vero, aliquam sed iure ratione hic!",
+      "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut consectetur a veritatis mollitia, excepturi voluptates, rem vel expedita sapiente facilis esse neque dolore provident porro. Saepe explicabo perspiciatis maxime adipisci!</p><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis nemo in omnis non est odit voluptatem tenetur quod doloribus dolores rem, asperiores autem quibusdam nihil reiciendis, expedita accusantium sed laborum? Dolorum ipsum aliquam est maiores veritatis quod officia consequatur inventore?</p>",
   },
 
   {
@@ -162,49 +255,80 @@ export const ipoData = [
     slug: "fabindia-ipo",
     img: fabindia,
     companyName: "FabIndia",
+    organisation: "FabIndia Private Limited",
     issueDate: "4th - 7th Oct 2022",
     issueSize: "₹2600 Crores",
     priceRange: "₹500-670",
     minInvest: "₹15,500",
     qty: "100 Shares/5 Lots",
-    ipoDetails: {
-      issueSize: "₹2,6000 - 2,7000 Cr.",
-      priceRange: "₹100 - 200",
-      minAmount: "₹15,500",
-      lotSize: "150 shares/lots",
-      issueDate: "4 Oct - 7 Oct 22",
-      listedOn: "15 Dec 22",
-      listedPrice: "₹150",
-      listingGain: "₹10(10.0%) ",
-    },
+    ipoDetails: [
+      {
+        title: "Issue Size",
+        value: "₹13,600 - 13,900 Cr.",
+      },
+      {
+        title: "Price range",
+        value: "₹100 - 200",
+      },
+      {
+        title: "Minimum amount",
+        value: "₹50,000",
+      },
+      {
+        title: "Lot size",
+        value: "150 shares/lots",
+      },
+      {
+        title: "Issue date",
+        value: "3 June - 5 June 24",
+      },
+      {
+        title: "Listed on",
+        value: "15 Dec 22",
+      },
+      {
+        title: "Listed price",
+        value: "₹150",
+      },
+      {
+        title: "Listed gains",
+        value: "₹10(10.0%) ",
+      },
+    ],
     ipoTimeline: [
       {
         status: true,
+        title: "Bidding starts",
         date: "12 Dec 2023",
       },
       {
         status: true,
+        title: "Bidding ends",
         date: "15 Dec 2023",
       },
       {
         status: true,
+        title: "Allotment Finalization",
         date: "18 Dec 2023",
       },
       {
         status: true,
+        title: "Refund initialization",
         date: "18 Dec 2023",
       },
       {
         status: true,
+        title: "Demat Transfer",
         date: "18 Dec 2023",
       },
       {
         status: false,
+        title: "Listing Date",
         date: "21 Dec 2023",
       },
     ],
     aboutCompany:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda magni quas quasi, rem accusantium cum! Aperiam, quas accusantium nesciunt, quasi ex nemo architecto cumque quis nobis sit explicabo perspiciatis laudantium consectetur nulla quidem rem! Aliquam nobis dolor earum! Culpa veniam id, minima praesentium optio impedit fugit quo autem facere unde enim, reprehenderit tenetur vero labore doloribus odit placeat quidem error. Libero rerum architecto inventore! Dolores recusandae ad maiores aperiam. Iste nam ex pariatur excepturi doloremque at, iusto commodi laborum! Illum voluptate autem, inventore tempore consequuntur, quidem possimus atque omnis pariatur incidunt quos aperiam delectus vero, aliquam sed iure ratione hic!",
+      "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut consectetur a veritatis mollitia, excepturi voluptates, rem vel expedita sapiente facilis esse neque dolore provident porro. Saepe explicabo perspiciatis maxime adipisci!</p><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis nemo in omnis non est odit voluptatem tenetur quod doloribus dolores rem, asperiores autem quibusdam nihil reiciendis, expedita accusantium sed laborum? Dolorum ipsum aliquam est maiores veritatis quod officia consequatur inventore?</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolorum ipsa quae voluptate saepe quisquamLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolorum ipsa quae voluptate saepe quisquam</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolorum ipsa quae voluptate saepe quisquam maiores rem corrupti nobis quasi.</p>",
   },
 
   {
@@ -212,49 +336,80 @@ export const ipoData = [
     slug: "ola-electric-ipo",
     img: ola,
     companyName: "Ola Electric",
+    organisation: "Ola Private Limited",
     issueDate: "4th - 7th Nov 2024",
     issueSize: "₹15600 Crores",
     priceRange: "₹400-450",
     minInvest: "₹40,000",
     qty: "100 Shares/5 Lots",
-    ipoDetails: {
-      issueSize: "₹15,600 - 16,700 Cr.",
-      priceRange: "₹400 - 450",
-      minAmount: "₹40,000",
-      lotSize: "130 shares/lots",
-      issueDate: "4 Nov - 7 Nov 24",
-      listedOn: "15 Dec 22",
-      listedPrice: "₹150",
-      listingGain: "₹10(10.0%) ",
-    },
+    ipoDetails: [
+      {
+        title: "Issue Size",
+        value: "₹13,600 - 13,900 Cr.",
+      },
+      {
+        title: "Price range",
+        value: "₹100 - 200",
+      },
+      {
+        title: "Minimum amount",
+        value: "₹50,000",
+      },
+      {
+        title: "Lot size",
+        value: "150 shares/lots",
+      },
+      {
+        title: "Issue date",
+        value: "3 June - 5 June 24",
+      },
+      {
+        title: "Listed on",
+        value: "15 Dec 22",
+      },
+      {
+        title: "Listed price",
+        value: "₹150",
+      },
+      {
+        title: "Listed gains",
+        value: "₹10(10.0%) ",
+      },
+    ],
     ipoTimeline: [
       {
         status: true,
+        title: "Bidding starts",
         date: "12 Dec 2023",
       },
       {
         status: true,
+        title: "Bidding ends",
         date: "15 Dec 2023",
       },
       {
         status: true,
+        title: "Allotment Finalization",
         date: "18 Dec 2023",
       },
       {
         status: true,
+        title: "Refund initialization",
         date: "18 Dec 2023",
       },
       {
         status: true,
+        title: "Demat Transfer",
         date: "18 Dec 2023",
       },
       {
         status: false,
+        title: "Listing Date",
         date: "21 Dec 2023",
       },
     ],
     aboutCompany:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda magni quas quasi, rem accusantium cum! Aperiam, quas accusantium nesciunt, quasi ex nemo architecto cumque quis nobis sit explicabo perspiciatis laudantium consectetur nulla quidem rem! Aliquam nobis dolor earum! Culpa veniam id, minima praesentium optio impedit fugit quo autem facere unde enim, reprehenderit tenetur vero labore doloribus odit placeat quidem error. Libero rerum architecto inventore! Dolores recusandae ad maiores aperiam. Iste nam ex pariatur excepturi doloremque at, iusto commodi laborum! Illum voluptate autem, inventore tempore consequuntur, quidem possimus atque omnis pariatur incidunt quos aperiam delectus vero, aliquam sed iure ratione hic!",
+      "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut consectetur a veritatis mollitia, excepturi voluptates, rem vel expedita sapiente facilis esse neque dolore provident porro. Saepe explicabo perspiciatis maxime adipisci!</p><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis nemo in omnis non est odit voluptatem tenetur quod doloribus dolores rem, asperiores autem quibusdam nihil reiciendis, expedita accusantium sed laborum? Dolorum ipsum aliquam est maiores veritatis quod officia consequatur inventore?</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolorum ipsa quae voluptate saepe quisquamLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolorum ipsa quae voluptate saepe quisquam</p>",
   },
 
   {
@@ -262,49 +417,80 @@ export const ipoData = [
     slug: "bajaj-energy-ipo",
     img: bajaj,
     companyName: "Bajaj Energy",
+    organisation: "Bajaj Engery Private Limited",
     issueDate: "4th - 7th Oct 2022",
     issueSize: "₹3600 Crores",
     priceRange: "₹50-60",
     minInvest: "₹50,000",
     qty: "100 Shares/5 Lots",
-    ipoDetails: {
-      issueSize: "₹3,600 - 3,700 Cr.",
-      priceRange: "₹100 - 200",
-      minAmount: "₹50,000",
-      lotSize: "150 shares/lots",
-      issueDate: "4 Oct - 7 Oct 22",
-      listedOn: "15 Dec 22",
-      listedPrice: "₹150",
-      listingGain: "₹10(10.0%) ",
-    },
+    ipoDetails: [
+      {
+        title: "Issue Size",
+        value: "₹13,600 - 13,900 Cr.",
+      },
+      {
+        title: "Price range",
+        value: "₹100 - 200",
+      },
+      {
+        title: "Minimum amount",
+        value: "₹50,000",
+      },
+      {
+        title: "Lot size",
+        value: "150 shares/lots",
+      },
+      {
+        title: "Issue date",
+        value: "3 June - 5 June 24",
+      },
+      {
+        title: "Listed on",
+        value: "15 Dec 22",
+      },
+      {
+        title: "Listed price",
+        value: "₹150",
+      },
+      {
+        title: "Listed gains",
+        value: "₹10(10.0%) ",
+      },
+    ],
     ipoTimeline: [
       {
         status: true,
+        title: "Bidding starts",
         date: "12 Dec 2023",
       },
       {
         status: true,
+        title: "Bidding ends",
         date: "15 Dec 2023",
       },
       {
         status: true,
+        title: "Allotment Finalization",
         date: "18 Dec 2023",
       },
       {
         status: true,
+        title: "Refund initialization",
         date: "18 Dec 2023",
       },
       {
         status: true,
+        title: "Demat Transfer",
         date: "18 Dec 2023",
       },
       {
         status: false,
+        title: "Listing Date",
         date: "21 Dec 2023",
       },
     ],
     aboutCompany:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda magni quas quasi, rem accusantium cum! Aperiam, quas accusantium nesciunt, quasi ex nemo architecto cumque quis nobis sit explicabo perspiciatis laudantium consectetur nulla quidem rem! Aliquam nobis dolor earum! Culpa veniam id, minima praesentium optio impedit fugit quo autem facere unde enim, reprehenderit tenetur vero labore doloribus odit placeat quidem error. Libero rerum architecto inventore! Dolores recusandae ad maiores aperiam. Iste nam ex pariatur excepturi doloremque at, iusto commodi laborum! Illum voluptate autem, inventore tempore consequuntur, quidem possimus atque omnis pariatur incidunt quos aperiam delectus vero, aliquam sed iure ratione hic!",
+      "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut consectetur a veritatis mollitia, excepturi voluptates, rem vel expedita sapiente facilis esse neque dolore provident porro. Saepe explicabo perspiciatis maxime adipisci!</p><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis nemo in omnis non est odit voluptatem tenetur quod doloribus dolores rem, asperiores autem quibusdam nihil reiciendis, expedita accusantium sed laborum? Dolorum ipsum aliquam est maiores veritatis quod officia consequatur inventore?</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolorum ipsa quae voluptate saepe quisquamLorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolorum ipsa quae voluptate saepe quisquam</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolorum ipsa quae voluptate saepe quisquam maiores rem corrupti nobis quasi.</p>",
   },
 
   {
@@ -312,48 +498,79 @@ export const ipoData = [
     slug: "mobikwik-ipo",
     img: mobikwik,
     companyName: "Mobikwik",
+    organisation: "Mobikwik Private Limited",
     issueDate: "4th - 7th Oct 2022",
     issueSize: "₹5000 Crores",
     priceRange: "₹100-200",
     minInvest: "₹14,000",
     qty: "100 Shares/5 Lots",
-    ipoDetails: {
-      issueSize: "₹5,000 - 5,700 Cr.",
-      priceRange: "₹100 - 200",
-      minAmount: "₹14,000",
-      lotSize: "150 shares/lots",
-      issueDate: "4 Oct - 7 Oct 22",
-      listedOn: "15 Dec 22",
-      listedPrice: "₹150",
-      listingGain: "₹10(10.0%) ",
-    },
+    ipoDetails: [
+      {
+        title: "Issue Size",
+        value: "₹13,600 - 13,900 Cr.",
+      },
+      {
+        title: "Price range",
+        value: "₹100 - 200",
+      },
+      {
+        title: "Minimum amount",
+        value: "₹50,000",
+      },
+      {
+        title: "Lot size",
+        value: "150 shares/lots",
+      },
+      {
+        title: "Issue date",
+        value: "3 June - 5 June 24",
+      },
+      {
+        title: "Listed on",
+        value: "15 Dec 22",
+      },
+      {
+        title: "Listed price",
+        value: "₹150",
+      },
+      {
+        title: "Listed gains",
+        value: "₹10(10.0%) ",
+      },
+    ],
     ipoTimeline: [
       {
         status: true,
+        title: "Bidding starts",
         date: "12 Dec 2023",
       },
       {
         status: true,
+        title: "Bidding ends",
         date: "15 Dec 2023",
       },
       {
         status: true,
+        title: "Allotment Finalization",
         date: "18 Dec 2023",
       },
       {
         status: true,
+        title: "Refund initialization",
         date: "18 Dec 2023",
       },
       {
         status: true,
+        title: "Demat Transfer",
         date: "18 Dec 2023",
       },
       {
         status: false,
+        title: "Listing Date",
         date: "21 Dec 2023",
       },
     ],
     aboutCompany:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda magni quas quasi, rem accusantium cum! Aperiam, quas accusantium nesciunt, quasi ex nemo architecto cumque quis nobis sit explicabo perspiciatis laudantium consectetur nulla quidem rem! Aliquam nobis dolor earum! Culpa veniam id, minima praesentium optio impedit fugit quo autem facere unde enim, reprehenderit tenetur vero labore doloribus odit placeat quidem error. Libero rerum architecto inventore! Dolores recusandae ad maiores aperiam. Iste nam ex pariatur excepturi doloremque at, iusto commodi laborum! Illum voluptate autem, inventore tempore consequuntur, quidem possimus atque omnis pariatur incidunt quos aperiam delectus vero, aliquam sed iure ratione hic!",
+      "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut consectetur a veritatis mollitia, excepturi voluptates, rem vel expedita sapiente facilis esse neque dolore provident porro. Saepe explicabo perspiciatis maxime adipisci!</p><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis nemo in omnis non est odit voluptatem tenetur quod doloribus dolores rem, asperiores autem quibusdam nihil reiciendis, expedita accusantium sed laborum? Dolorum ipsum aliquam est maiores veritatis quod officia consequatur inventore?</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur dolorum ipsa quae voluptate saepe quisquam maiores rem corrupti nobis quasi.</p>",
   },
 ];

@@ -84,3 +84,21 @@ table {
 	font-weight: 700;
 	margin-bottom: 20px;
 }
+
+.flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.flex-align{
+	display: flex;
+	align-items: center;
+}
+
+.heading{
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}

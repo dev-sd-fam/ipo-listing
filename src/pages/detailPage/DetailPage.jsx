@@ -1,9 +1,29 @@
-import React from 'react'
+import React from "react";
+import Breadcrumb from "../../components/breadcrumb/Breadcrumb";
+import DetailsHeader from "../../components/detailsHeader/DetailsHeader";
+import IpoDetails from "../../components/ipoDetails/IpoDetails";
+import IpoTimelineStatus from "../../components/ipoTimelineStatus/IpoTimelineStatus";
+import AboutCompany from "../../components/aboutCompany/AboutCompany";
+import { useParams } from "react-router-dom";
+import { ipoData } from "../../data";
 
 const DetailPage = () => {
-  return (
-    <div>DetailPage</div>
-  )
-}
+  const { slug } = useParams();
+  const ipoDetail = ipoData?.find((ipo) => ipo.slug === slug);
 
-export default DetailPage
+  if (!ipoDetail) {
+    return <div>IPO not found</div>;
+  }
+
+  return (
+    <>
+      <Breadcrumb />
+      <DetailsHeader ipoDetail={ipoDetail} />
+      <IpoDetails ipoDetail={ipoDetail} />
+      <IpoTimelineStatus ipoDetail={ipoDetail} />
+      <AboutCompany ipoDetail={ipoDetail} />
+    </>
+  );
+};
+
+export default DetailPage;

@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <section className="footer">
       <Wrapper>
-        <div className="footer-container">
+        <div className="footer-container flex">
           <h2 className="logo">
             <Link to="./">IPO</Link>
           </h2>

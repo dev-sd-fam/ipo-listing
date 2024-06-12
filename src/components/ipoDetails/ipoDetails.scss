@@ -1,0 +1,32 @@
+@import "../../styles/variables.scss";
+
+.ipo-details {
+  margin-bottom: 40px;
+  
+  .container,
+  .content {
+    padding: 25px 15px;
+    box-shadow: $shadow;
+    border-radius: 10px;
+  }
+
+  .content{
+    padding: 20px 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px 15px;
+
+    .title{
+      font-size: 14px;
+      line-height: 20px;
+      color: $dark-grey;
+      margin-bottom: 5px;
+    }
+
+    .value{
+      font-size: 16px;
+      line-height: 22px;
+      font-weight: 600;
+    }
+  }
+}

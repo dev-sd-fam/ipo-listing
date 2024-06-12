@@ -13,8 +13,8 @@ const IpoItem = memo(
     qty,
   }) => (
     <li>
-      <Link to={`./ipo/:${slug}`} className="items">
-        <div className="row company">
+      <Link to={`./ipo/${slug}`} className="items">
+        <div className="row company flex-align">
           <div className="logo left">
             <img src={img} alt={`${companyName} logo`} />
           </div>
@@ -29,7 +29,7 @@ const IpoItem = memo(
         <div className="row center price-range">
           <span className="text">{priceRange}</span>
         </div>
-        <div className="row center investment">
+        <div className="row center investment flex-align">
           <span className="min-investment text">{minInvest}</span>
           <span className="qty">{qty}</span>
         </div>

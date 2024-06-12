@@ -6,15 +6,9 @@
   color: $white;
   padding: 15px 0;
 
-  .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .logo {
-    font-size: 20px;
-    line-height: 26px;
+  .logo a {
+    font-size: 24px;
+    line-height: 30px;
     font-weight: 600;
   }
 }

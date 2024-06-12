@@ -1,0 +1,21 @@
+@import "../../styles/variables.scss";
+
+.about-company{
+  margin-bottom: 40px;
+  
+  .container{
+    box-shadow: $shadow;
+    border-radius: 12px;
+    padding: 20px 15px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 20px;
+    color: grey;
+
+    &:not(:last-child){
+      margin-bottom: 10px;
+    }
+  }
+}
