@@ -14,7 +14,7 @@ const IpoDetails = ({ ipoDetail }) => {
             {ipoDetail.ipoDetails?.map((detail) => (
               <li className="row" key={detail.title}>
                 <h4 className="title">{detail.title}</h4>
-                <span className="value">{detail.value}</span>
+                <span className="value">{detail.value ? detail.value : "--"}</span>
               </li>
             ))}
           </ul>
