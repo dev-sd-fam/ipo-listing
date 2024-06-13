@@ -3,6 +3,19 @@ import { ipoData } from "../../data";
 import Wrapper from "../wrapper/Wrapper";
 import "./ipoLising.scss";
 import IpoItem from "../ipoItem/IpoItem";
+import { motion } from "framer-motion";
+
+const container = {
+  hidden: { opacity: 1, scale: 0 },
+  visible: {
+    opacity: 1,
+    scale: 1,
+    transition: {
+      delayChildren: 0.3,
+      staggerChildren: 0.15,
+    },
+  },
+};
 
 const IpoListing = () => {
   const titles = [
@@ -15,7 +28,12 @@ const IpoListing = () => {
     <section className="ipo-listing">
       <Wrapper>
         <h2 className="sec-heading">IPO - Initial Public Offerings</h2>
-        <ul className="listing">
+        <motion.ul
+          className="listing container"
+          variants={container}
+          initial="hidden"
+          animate="visible"
+        >
           <li className="table-titles items">
             {titles.map((title) => (
               <div className="row" key={title}>
@@ -24,9 +42,9 @@ const IpoListing = () => {
             ))}
           </li>
           {ipoData?.map((item) => (
-            <IpoItem key={item.slug} {...item} />
+            <IpoItem key={item.slug} {...item} variants={item} />
           ))}
-        </ul>
+        </motion.ul>
       </Wrapper>
     </section>
   );

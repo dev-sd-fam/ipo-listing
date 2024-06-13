@@ -1,5 +1,14 @@
 import { memo } from "react";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
+
+const item = {
+  hidden: { y: 20, opacity: 0 },
+  visible: {
+    y: 0,
+    opacity: 1,
+  },
+};
 
 const IpoItem = memo(
   ({
@@ -12,7 +21,7 @@ const IpoItem = memo(
     minInvest,
     qty,
   }) => (
-    <li>
+    <motion.li className="item" variants={item}>
       <Link to={`./ipo/${slug}`} className="items" title="Ipo Item">
         <div className="row company flex-align">
           <div className="logo left">
@@ -34,7 +43,7 @@ const IpoItem = memo(
           <span className="qty">{qty}</span>
         </div>
       </Link>
-    </li>
+    </motion.li>
   )
 );
 

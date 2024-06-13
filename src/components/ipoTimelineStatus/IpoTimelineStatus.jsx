@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import React from "react";
 import Wrapper from "../wrapper/Wrapper";
 import SectionHeading from "../../utils/SectionHeading";
@@ -9,7 +10,14 @@ const IpoTimelineStatus = ({ ipoDetail }) => {
   let previousStatus = true;
 
   return (
-    <section className="timeline">
+    <motion.section className="timeline box" initial={{ opacity: 0, scale: 0.5 }}
+    animate={{ opacity: 1, scale: 1 }}
+    viewport={{amount: "all"}}
+    transition={{
+      duration: 0.5,
+      delay: 0.6,
+      ease: [0, 0.71, 0.2, 1.01],
+    }}>
       <Wrapper>
         <div className="container">
           <SectionHeading>IPO Timeline</SectionHeading>
@@ -49,7 +57,7 @@ const IpoTimelineStatus = ({ ipoDetail }) => {
           </ul>
         </div>
       </Wrapper>
-    </section>
+    </motion.section>
   );
 };
 

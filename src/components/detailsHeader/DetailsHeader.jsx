@@ -4,10 +4,20 @@ import { LiaFileDownloadSolid } from "react-icons/lia";
 import { Link } from "react-router-dom";
 import { MdKeyboardArrowLeft } from "react-icons/md";
 import "./detailsHeader.scss";
+import { motion } from "framer-motion";
 
 const DetailsHeader = ({ ipoDetail }) => {
   return (
-    <section className="detail-header">
+    <motion.section
+      className="detail-header box"
+      initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{
+        duration: 0.5,
+        delay: 0.2,
+        ease: [0, 0.71, 0.2, 1.01],
+      }}
+    >
       <Wrapper>
         <div className="container flex">
           <div className="left-side flex">
@@ -41,7 +51,7 @@ const DetailsHeader = ({ ipoDetail }) => {
           </div>
         </div>
       </Wrapper>
-    </section>
+    </motion.section>
   );
 };
 

@@ -1,6 +1,7 @@
 import React from "react";
 import Wrapper from "../wrapper/Wrapper";
 import SectionHeading from "../../utils/SectionHeading";
+import { motion } from "framer-motion";
 import "./ipoDetails.scss";
 
 const IpoDetails = ({ ipoDetail }) => {
@@ -13,7 +14,16 @@ const IpoDetails = ({ ipoDetail }) => {
     return "";
   };
   return (
-    <section className="ipo-details">
+    <motion.section
+      className="ipo-details box"
+      initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{
+        duration: 0.5,
+        delay: 0.4,
+        ease: [0, 0.71, 0.2, 1.01],
+      }}
+    >
       <Wrapper>
         <div className="container">
           <SectionHeading>IPO details</SectionHeading>
@@ -35,7 +45,7 @@ const IpoDetails = ({ ipoDetail }) => {
           </ul>
         </div>
       </Wrapper>
-    </section>
+    </motion.section>
   );
 };
 
