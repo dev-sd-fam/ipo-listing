@@ -46,11 +46,12 @@ export const ipoData = [
       },
       {
         title: "Listed price",
-        value: "₹150",
+        value: "₹480",
       },
       {
         title: "Listed gains",
-        value: "₹10(10.0%) ",
+        value: "-₹20",
+        percent: "-10.0%",
       },
     ],
     ipoTimeline: [
@@ -103,7 +104,7 @@ export const ipoData = [
     ipoDetails: [
       {
         title: "Issue Size",
-        value: "₹3,60 - 3,90 Cr.",
+        value: "₹360 - 390 Cr.",
       },
       {
         title: "Price range",
@@ -132,6 +133,7 @@ export const ipoData = [
       {
         title: "Listed gains",
         value: "",
+        percent: "",
       },
     ],
     ipoTimeline: [
@@ -212,7 +214,8 @@ export const ipoData = [
       },
       {
         title: "Listed gains",
-        value: "₹80(142.0%) ",
+        value: "₹80 ",
+        percent: "142.0%",
       },
     ],
     ipoTimeline: [
@@ -294,6 +297,7 @@ export const ipoData = [
       {
         title: "Listed gains",
         value: "",
+        percent: "",
       },
     ],
     ipoTimeline: [
@@ -374,7 +378,8 @@ export const ipoData = [
       },
       {
         title: "Listed gains",
-        value: "₹10(10.0%) ",
+        value: "₹10 ",
+        percent: "10.0%",
       },
     ],
     ipoTimeline: [
@@ -451,11 +456,12 @@ export const ipoData = [
       },
       {
         title: "Listed price",
-        value: "₹150",
+        value: "₹40",
       },
       {
         title: "Listed gains",
-        value: "₹10(10.0%) ",
+        value: "-₹10",
+        percent: "-10.0%",
       },
     ],
     ipoTimeline: [
@@ -532,11 +538,12 @@ export const ipoData = [
       },
       {
         title: "Listed price",
-        value: "₹140",
+        value: "₹290",
       },
       {
         title: "Listed gains",
-        value: "₹100(130.0%) ",
+        value: "₹100 ",
+        percent: "130%",
       },
     ],
     ipoTimeline: [

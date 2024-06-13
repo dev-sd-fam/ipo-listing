@@ -4,7 +4,8 @@ import Wrapper from "../wrapper/Wrapper";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import "./breadcrumb.scss";
 
-const Breadcrumb = () => {
+const Breadcrumb = ({ipoDetail}) => {
+
   return (
     <div className="breadcrumb">
       <Wrapper>
@@ -13,7 +14,7 @@ const Breadcrumb = () => {
           <span className="icon">
             <MdKeyboardArrowRight />
           </span>
-          <span>Market Watch</span>
+          <span>{ipoDetail?.organisation}</span>
         </div>
       </Wrapper>
     </div>

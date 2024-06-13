@@ -4,6 +4,13 @@ import SectionHeading from "../../utils/SectionHeading";
 import "./ipoDetails.scss";
 
 const IpoDetails = ({ ipoDetail }) => {
+  const getBracketValueColorClass = (percent) => {
+    if (percent) {
+      const percentage = parseFloat(percent);
+      return percentage < 0 ? "red-text" : "green-text";
+    }
+    return "";
+  };
   return (
     <section className="ipo-details">
       <Wrapper>
@@ -14,7 +21,14 @@ const IpoDetails = ({ ipoDetail }) => {
             {ipoDetail.ipoDetails?.map((detail) => (
               <li className="row" key={detail.title}>
                 <h4 className="title">{detail.title}</h4>
-                <span className="value">{detail.value ? detail.value : "--"}</span>
+                <span className="value">
+                  {detail.value ? detail.value : "--"}
+                  {detail.percent && (
+                    <span className={getBracketValueColorClass(detail.percent)}>
+                      ({detail.percent})
+                    </span>
+                  )}
+                </span>
               </li>
             ))}
           </ul>
