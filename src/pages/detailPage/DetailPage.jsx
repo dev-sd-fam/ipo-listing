@@ -19,7 +19,7 @@ const DetailPage = () => {
     <>
       <Breadcrumb ipoDetail={ipoDetail} />
       <DetailsHeader ipoDetail={ipoDetail} />
-      <IpoDetails ipoDetail={ipoDetail} />
+      <IpoDetails ipoDetail={ipoDetail}/>
       <IpoTimelineStatus ipoDetail={ipoDetail} />
       <AboutCompany ipoDetail={ipoDetail} />
     </>

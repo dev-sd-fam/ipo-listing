@@ -1,3 +1,4 @@
+import { v4 as uuidv4 } from 'uuid';
 import gpEco from "./assets/gp-eco.svg";
 import fabindia from "./assets/fabindia.png";
 import ola from "./assets/ola.png";
@@ -9,7 +10,7 @@ import boat from "./assets/boat.png";
 export const ipoData = [
   
   {
-    id: 1,
+    id: uuidv4(),
     slug: "boat-ipo",
     img: boat,
     companyName: "boAt",
@@ -91,7 +92,7 @@ export const ipoData = [
   },
 
   {
-    id: 2,
+    id: uuidv4(),
     slug: "oyo-ipo",
     img: oyo,
     companyName: "OYO",
@@ -173,7 +174,7 @@ export const ipoData = [
   },
 
   {
-    id: 3,
+    id: uuidv4(),
     slug: "gp-eco-ipo",
     img: gpEco,
     companyName: "GP Eco Solutions",
@@ -255,7 +256,7 @@ export const ipoData = [
   },
 
   {
-    id: 4,
+    id: uuidv4(),
     slug: "fabindia-ipo",
     img: fabindia,
     companyName: "FabIndia",
@@ -312,7 +313,7 @@ export const ipoData = [
         date: "5 July 2024",
       },
       {
-        status: true,
+        status: false,
         title: "Allotment Finalization",
         date: "6 July 2024",
       },
@@ -337,7 +338,7 @@ export const ipoData = [
   },
 
   {
-    id: 5,
+    id: uuidv4(),
     slug: "ola-electric-ipo",
     img: ola,
     companyName: "Ola Electric",
@@ -419,7 +420,7 @@ export const ipoData = [
   },
 
   {
-    id: 6,
+    id: uuidv4(),
     slug: "bajaj-energy-ipo",
     img: bajaj,
     companyName: "Bajaj Energy",
@@ -501,7 +502,7 @@ export const ipoData = [
   },
 
   {
-    id: 7,
+    id: uuidv4(),
     slug: "mobikwik-ipo",
     img: mobikwik,
     companyName: "Mobikwik",

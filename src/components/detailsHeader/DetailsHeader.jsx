@@ -11,7 +11,7 @@ const DetailsHeader = ({ ipoDetail }) => {
       <Wrapper>
         <div className="container flex">
           <div className="left-side flex">
-            <Link to="/" className="back-btn flex">
+            <Link to="/" className="back-btn flex" title="Back to home">
               <MdKeyboardArrowLeft />
             </Link>
             <div className="content flex">
@@ -27,10 +27,17 @@ const DetailsHeader = ({ ipoDetail }) => {
             </div>
           </div>
           <div className="right-side flex">
-            <Link to="" className="download">
+            <Link
+              to="https://pii.or.id/uploads/dummies.pdf"
+              className="download"
+              title="Download doc"
+              download
+            >
               <LiaFileDownloadSolid />
             </Link>
-            <Link to="" className="apply-now">Apply Now</Link>
+            <Link to="" className="apply-now" title="Apply now">
+              Apply Now
+            </Link>
           </div>
         </div>
       </Wrapper>

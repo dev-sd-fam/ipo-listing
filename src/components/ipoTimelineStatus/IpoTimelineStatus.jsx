@@ -7,7 +7,6 @@ import { FaCheckCircle, FaRegCircle } from "react-icons/fa";
 const IpoTimelineStatus = ({ ipoDetail }) => {
   const { ipoTimeline } = ipoDetail;
   let previousStatus = true;
-  let lastActiveIndex = -1;
 
   return (
     <section className="timeline">
@@ -20,10 +19,6 @@ const IpoTimelineStatus = ({ ipoDetail }) => {
                 timeline.status = false;
               }
               previousStatus = timeline.status;
-
-              if (timeline.status) {
-                lastActiveIndex = index;
-              }
 
               return (
                 <li
@@ -54,13 +49,6 @@ const IpoTimelineStatus = ({ ipoDetail }) => {
           </ul>
         </div>
       </Wrapper>
-      {lastActiveIndex >= 0 && (
-        <style>
-          {`.timeline-item.active:nth-child(${lastActiveIndex + 1})::after {
-            border-color: #e8e8e8 !important;
-          }`}
-        </style>
-      )}
     </section>
   );
 };

@@ -7,7 +7,7 @@ const Navbar = () => {
     <section className="navbar">
       <Wrapper>
         <h1 className="logo">
-          <Link to="/">IPO</Link>
+          <Link to="/" title="Home">IPO</Link>
         </h1>
       </Wrapper>
     </section>

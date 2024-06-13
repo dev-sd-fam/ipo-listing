@@ -10,7 +10,7 @@ const Breadcrumb = ({ipoDetail}) => {
     <div className="breadcrumb">
       <Wrapper>
         <div className="container flex-align">
-          <Link to="/">Home</Link>
+          <Link to="/" title="Home">Home</Link>
           <span className="icon">
             <MdKeyboardArrowRight />
           </span>

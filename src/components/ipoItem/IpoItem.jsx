@@ -13,7 +13,7 @@ const IpoItem = memo(
     qty,
   }) => (
     <li>
-      <Link to={`./ipo/${slug}`} className="items">
+      <Link to={`./ipo/${slug}`} className="items" title="Ipo Item">
         <div className="row company flex-align">
           <div className="logo left">
             <img src={img} alt={`${companyName} logo`} />

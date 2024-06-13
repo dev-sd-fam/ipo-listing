@@ -8,7 +8,7 @@ const Footer = () => {
       <Wrapper>
         <div className="footer-container flex">
           <h2 className="logo">
-            <Link to="./">IPO</Link>
+            <Link to="./" title="Home">IPO</Link>
           </h2>
           <span>&copy; Copyright of IPO's</span>
         </div>
