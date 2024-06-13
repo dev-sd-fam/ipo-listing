@@ -5,12 +5,13 @@ import "./aboutCompany.scss";
 import SectionHeading from "../../utils/SectionHeading";
 
 const AboutCompany = ({ ipoDetail }) => {
+  const { aboutCompany } = ipoDetail;
   return (
     <section className="about-company">
       <Wrapper>
         <div className="container">
           <SectionHeading>About the company</SectionHeading>
-          <RenderHTML html={ipoDetail.aboutCompany} />
+          {aboutCompany ? <RenderHTML html={aboutCompany} /> : <p>No information available.</p>}
         </div>
       </Wrapper>
     </section>

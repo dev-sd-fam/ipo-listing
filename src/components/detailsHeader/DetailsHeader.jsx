@@ -30,7 +30,7 @@ const DetailsHeader = ({ ipoDetail }) => {
             <Link to="" className="download">
               <LiaFileDownloadSolid />
             </Link>
-            <Link className="apply-now">Apply Now</Link>
+            <Link to="" className="apply-now">Apply Now</Link>
           </div>
         </div>
       </Wrapper>

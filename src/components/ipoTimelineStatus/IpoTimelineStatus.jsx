@@ -5,6 +5,7 @@ import "./ipoTimelineStatus.scss";
 import { FaCheckCircle, FaRegCircle } from "react-icons/fa";
 
 const IpoTimelineStatus = ({ ipoDetail }) => {
+  const { ipoTimeline } = ipoDetail;
   let previousStatus = true;
   let lastActiveIndex = -1;
 
@@ -14,7 +15,7 @@ const IpoTimelineStatus = ({ ipoDetail }) => {
         <div className="container">
           <SectionHeading>IPO Timeline</SectionHeading>
           <ul className="timeline-status">
-            {ipoDetail.ipoTimeline?.map((timeline, index) => {
+            {ipoTimeline?.map((timeline, index) => {
               if (!previousStatus) {
                 timeline.status = false;
               }
@@ -37,7 +38,7 @@ const IpoTimelineStatus = ({ ipoDetail }) => {
                         <FaRegCircle className="tick-icon grey" /> // Grey tick for pending status
                       )}
                     </div>
-                    {index < ipoDetail.ipoTimeline.length - 1 && (
+                    {index < ipoTimeline.length - 1 && (
                       <div
                         className={`line ${timeline.status ? "active" : ""}`}
                       ></div>
