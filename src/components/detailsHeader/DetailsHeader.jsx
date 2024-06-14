@@ -42,6 +42,7 @@ const DetailsHeader = ({ ipoDetail }) => {
               className="download"
               title="Download doc"
               download
+              target="_blank"
             >
               <LiaFileDownloadSolid />
             </Link>
